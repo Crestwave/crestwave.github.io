@@ -22,7 +22,7 @@ function execute() {
     var tape = [];
     var ptr = 0;
 
-    output.innerHTML = "Output<hr>";
+    output.innerHTML = "";
     eval(program);
 }
 
